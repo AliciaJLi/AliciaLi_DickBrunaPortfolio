@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AliciaLi_DickBrunaHome</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<script src="main.js"></script>
+</head>
+
+<body style="background-color:#005398;">
+
+<div class="navbar">
+  <h1 class="nav-title">dick bruna</h1>
+</div>
+
+<button class="menu-button" onclick="toggleMenu()">menu</button>
+
+<div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+
+<div id="side-menu" class="side-menu">
+  <div class="menu-buttons">
+  <a href="index.html">home</a><br><br>
+  <a href="picturebooks.html" onclick="toggleMenu()">picture book gallery</a>
+  </div>
+</div>
+
+<div class="book" id="book">
+
+  <!-- Page 1 -->
+  <div class="page" id="p1" onclick="flipPage(1,5)">
+    <div class="front front1">
+      <img src="AboutMeCover.png" width="500px">
+    </div>
+    <div class="back">
+      <div class="page-text">
+      hello, I am dick bruna<br><br>
+      a dutch writer, illustrator, and designer<br><br>
+      I create simple stories with drawings<br><br>
+      in the eyes of a four-year-old
+      </div>
+    </div>
+  </div>
+
+  <!-- Page 2 -->
+  <div class="page" id="p2" onclick="flipPage(2,5)">
+    <div class="front front2">
+      <img src="AboutPage1.png" width="500px">
+    </div>
+    <div class="back">
+      <div class="page-text">
+      what do my works have in common?<br><br>
+      they are simple, like pictograms<br><br>
+      bunny or elephant, both are easy<br><br>
+      only the important lines remain
+      </div>
+    </div>
+  </div>
+
+  <!-- Page 3 -->
+  <div class="page" id="p3" onclick="flipPage(3,5)">
+    <div class="front front3">
+      <img src="AboutPage2.jpg" width="500px">
+    </div>
+    <div class="back">
+      <div class="page-text">
+      when my grandchildren visit me<br><br>
+      or when I cycle past children in the street<br><br>
+      I want to create a world for children<br><br>
+      for their imagination
+      </div>
+    </div>
+  </div>
+
+  <!-- Page 4 -->
+  <div class="page" id="p4" onclick="flipPage(4,5)">
+    <div class="front front4">
+      <img src="AboutPage3.jpg" width="400px">
+    </div>
+    <div class="back">
+      <div class="page-text">
+      stories about playing in a tent<br><br>
+      or stories about death and grief<br><br>
+      I am honest with children<br><br>
+      as they are honest to me
+      </div>
+    </div>
+  </div>
+
+  <!-- Page 5 -->
+  <div class="page" id="p5" onclick="flipPage(5,5)">
+    <div class="front front5">
+      <img src="AboutPage4.jpg" width="400px">
+    </div>
+    <div class="back">
+      <img src="AboutMeBack.jpg" width="500px">
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
